@@ -21,6 +21,25 @@ Content-Type: application/json
   "description": "Лучшие огурцы на рынке"
 }
 
+###
+# создание продукта 3
+POST {{baseUrl}}/products/
+Content-Type: application/json
+
+{
+  "title": "Картофель",
+  "description": "Лучшие картофелины на рынке"
+}
+
+###
+# создание продукта 4
+POST {{baseUrl}}/products/
+Content-Type: application/json
+
+{
+  "title": "Морковь",
+  "description": "Лучшие моркофелины на рынке"
+}
 
 ###
 
@@ -71,6 +90,9 @@ Content-Type: application/json
     }
   ]
 }
+
+
+
 ###
 # создание склада2
 POST {{baseUrl}}/stocks/
